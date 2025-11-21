@@ -1,5 +1,5 @@
 # Ex. No: 11 – Packet Tracer: Verify IPv4 and IPv6 Addressing
-# Date: ___________
+# Date: 17.11.2025
 ________________________________________<br>
 # Objective
 To configure, verify, and test dual-stack (IPv4 and IPv6) addressing on a Cisco Packet Tracer network topology.<br>
@@ -15,7 +15,8 @@ ________________________________________<br>
 • Copper straight-through and Serial DCE/DTE cables<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1–R2–R3 in series and PCs connected to edge routers.)<br>
+<img width="814" height="173" alt="image" src="https://github.com/user-attachments/assets/3324109d-e860-40db-bc11-a2c80315b5c0" />
+<br>
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -66,9 +67,15 @@ ________________________________________<br>
 • Trace route confirms correct path through routers R1–R2–R3.<br>
 ________________________________________
 # Output (Attach Screenshots)
+# Output (Attach Screenshots)
 • ipconfig /all and ipv6config /all output for both PCs.<br>
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/cbd4a9b4-6c78-4cb3-8065-40f0ff97e926" />
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/5a005576-5b7e-4e5a-8da2-adaea8c6e097" />
 • Ping results for IPv4 and IPv6.<br>
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/d836b1dd-e471-4ac2-b80b-f48f0ce56b86" />
+<img width="1495" height="1019" alt="image" src="https://github.com/user-attachments/assets/42b0c4f0-b7a3-4810-9f9a-ba879266fc15" />
 • Traceroute results showing intermediate hops.<br>
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/88032329-a4bc-4da8-9bf9-4c9ed60eca87" />
 ________________________________________
 # Result
 The dual-stack IPv4 and IPv6 addressing scheme was successfully verified. Both addressing types achieved full connectivity between PC1 and PC2 through multiple routers, confirming correct configuration and routing.
